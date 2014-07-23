@@ -8,7 +8,7 @@
 ## usage example:
 ##> x<-matrix(c(2,3,1,7),2,2)
 ##> b<-makeCacheMatrix(x)
-##> cacheSolve(x)
+##> cacheSolve(b)
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
